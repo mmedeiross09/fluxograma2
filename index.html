@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VerdeNexo: um fluxograma interativo sobre como a inteligência artificial pode ajudar a cuidar do meio ambiente." />
+  <title>VerdeNexo — IA pelo planeta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="VerdeNexo início">
+      <span class="brand-mark">✦</span>
+      <span>VERDE<span class="brand-accent">NEXO</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#fluxograma">Fluxograma</a>
+      <a href="#impactos">Impactos</a>
+      <a href="#proximo-passo">Próximo passo</a>
+    </nav>
+    <button class="outline-button theme-toggle" type="button" aria-label="Alternar contraste">◐ <span>Modo foco</span></button>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span> TECNOLOGIA COM PROPÓSITO</div>
+        <h1>Inteligência artificial,<br /><em>impacto natural.</em></h1>
+        <p class="hero-text">Um mapa visual para entender como dados e decisões inteligentes podem transformar o cuidado com o nosso planeta.</p>
+        <a class="primary-button" href="#fluxograma">Explorar o fluxograma <span>↘</span></a>
+        <div class="hero-note"><span class="note-icon">✺</span><span><strong>Pequenas escolhas.</strong><br />Grandes possibilidades.</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustração de uma folha conectada por dados">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="data-line line-a"></div><div class="data-line line-b"></div><div class="data-line line-c"></div>
+        <div class="node node-top">◌</div><div class="node node-left">⌁</div><div class="node node-right">✦</div>
+        <div class="leaf-shape"><span>✦</span></div>
+        <div class="visual-caption"><span class="live-dot"></span> CONECTANDO IDEIAS <strong>→</strong></div>
+      </div>
+    </section>
+
+    <section class="intro section-shell" id="fluxograma">
+      <div class="section-label">01 / O CAMINHO</div>
+      <div class="intro-heading"><h2>Da observação<br />à <em>regeneração.</em></h2><p>A IA não substitui a natureza — ela nos ajuda a enxergar melhor, agir mais rápido e usar os recursos certos para protegê-la.</p></div>
+      <div class="flowchart" aria-label="Fluxograma das etapas de atuação da IA pelo meio ambiente">
+        <article class="flow-card active-card" data-step="observar"><div class="card-number">01</div><div class="card-icon">⌁</div><h3>Observar</h3><p>Reunir dados do clima, solo, água e biodiversidade.</p><button class="learn-more" type="button">ver detalhe <span>↗</span></button></article>
+        <div class="flow-connector"><span>→</span></div>
+        <article class="flow-card" data-step="entender"><div class="card-number">02</div><div class="card-icon">◎</div><h3>Entender</h3><p>Encontrar padrões e prever riscos antes que aconteçam.</p><button class="learn-more" type="button">ver detalhe <span>↗</span></button></article>
+        <div class="flow-connector"><span>→</span></div>
+        <article class="flow-card" data-step="agir"><div class="card-number">03</div><div class="card-icon">✦</div><h3>Agir</h3><p>Transformar insights em escolhas eficientes e responsáveis.</p><button class="learn-more" type="button">ver detalhe <span>↗</span></button></article>
+        <div class="flow-connector"><span>→</span></div>
+        <article class="flow-card" data-step="regenerar"><div class="card-number">04</div><div class="card-icon">❋</div><h3>Regenerar</h3><p>Medir resultados, aprender e devolver vida ao ecossistema.</p><button class="learn-more" type="button">ver detalhe <span>↗</span></button></article>
+      </div>
+      <div class="detail-panel" id="detail-panel" role="status"><strong>Observar:</strong> satélites, sensores e imagens de drones podem acompanhar áreas verdes, nascentes e espécies em tempo real.</div>
+    </section>
+
+    <section class="impact-section section-shell" id="impactos">
+      <div class="section-label">02 / ONDE ACONTECE</div>
+      <div class="impact-grid">
+        <div class="impact-title"><h2>Um planeta,<br /><em>muitos sinais.</em></h2><p>Quando conectamos informação e ação, cada setor encontra uma forma de cuidar melhor.</p></div>
+        <div class="impact-list">
+          <div class="impact-row"><span class="impact-symbol">◒</span><div><strong>Agricultura regenerativa</strong><small>Previsão de irrigação e saúde do solo.</small></div><span class="row-arrow">↗</span></div>
+          <div class="impact-row"><span class="impact-symbol">⌁</span><div><strong>Energia inteligente</strong><small>Menos desperdício, mais fontes renováveis.</small></div><span class="row-arrow">↗</span></div>
+          <div class="impact-row"><span class="impact-symbol">✧</span><div><strong>Cidades conscientes</strong><small>Mobilidade limpa e gestão de resíduos.</small></div><span class="row-arrow">↗</span></div>
+          <div class="impact-row"><span class="impact-symbol">❋</span><div><strong>Proteção da vida</strong><small>Monitoramento de florestas e oceanos.</small></div><span class="row-arrow">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section section-shell" id="proximo-passo">
+      <div class="cta-inner"><div class="section-label">03 / AGORA É COM VOCÊ</div><h2>O futuro não é<br />automático. É <em>coletivo.</em></h2><p>Use a tecnologia como ponte: questione os dados, inclua as pessoas e escolha soluções que respeitem os limites da Terra.</p><button class="primary-button cta-button" id="inspire-button" type="button">Gerar uma ideia sustentável <span>✦</span></button><div class="idea-output" id="idea-output" aria-live="polite"></div></div>
+      <div class="cta-decoration"><span>✦</span><span>·</span><span>✧</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><span>VERDE<span class="brand-accent">NEXO</span> © 2024</span><span>feito para um amanhã possível <b>↗</b></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
